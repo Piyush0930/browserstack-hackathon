@@ -1,0 +1,29 @@
+userName: piyushpatil_PVE3wZ
+accessKey: hB1yyGjqAdvxu833hxWN
+
+framework: playwright
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Ventura
+    browserName: safari
+    browserVersion: latest
+
+  - deviceName: iPhone 14
+    osVersion: 16
+    browserName: chrome
+
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: chrome
+
+buildName: Hackathon Build
+projectName: Cross Browser Login Automation
+
+playwrightConfigOptions:
+  timeout: 30000
